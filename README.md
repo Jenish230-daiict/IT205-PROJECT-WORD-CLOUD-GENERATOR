@@ -28,7 +28,7 @@
          <td>3</td>
         <td>202301064</td>
         <td>URVESH DABHI</td>
-        <td>MAIN FUNCTION AND DEBUGGING</td>
+        <td>MAIN FUNCTION AND FUNCTION TO READ PDF FILES</td>
     </tr>
     <tr>
          <td>4</td>

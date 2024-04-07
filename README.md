@@ -16,13 +16,13 @@
         <td>1</td>
         <td>202301172</td>
         <td>MACWAN JENISH DENISH</td>
-        <td>READ TXT FILES AND MAKE GUI</td>
+        <td>FUNCTION TO READ TXT FILES AND MAKE GUI</td>
     </tr>
     <tr>
          <td>2</td>
         <td>202301192</td>
         <td>PATEL HARSH NARESHBHAI</td>
-         <td>READ CPP FILES AND DOCUMENTATION</td>
+         <td>FUNCTION TO READ CPP FILES AND DOCUMENTATION</td>
     </tr>
     <tr>
          <td>3</td>

@@ -1,0 +1,3 @@
+C:\Users\jenis\source\repos\WCG\WCG\x64\Release\WCG.vcxproj.AssemblyReference.cache
+C:\Users\jenis\source\repos\WCG\WCG\x64\Release\WCG.MyForm.resources
+C:\Users\jenis\source\repos\WCG\WCG\x64\Release\WCG.vcxproj.GenerateResource.cache

@@ -1,0 +1,3 @@
+﻿  MyForm.cpp
+C:\Users\jenis\source\repos\WCG\WCG\MyForm.cpp(548,18): error C3861: 'popen': identifier not found
+C:\Users\jenis\source\repos\WCG\WCG\MyForm.cpp(565,5): error C3861: 'pclose': identifier not found

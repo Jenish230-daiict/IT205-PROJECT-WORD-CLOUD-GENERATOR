@@ -24,7 +24,7 @@
     <tr>
          <td>3</td>
         <td>202301064</td>
-        <td>URVESH DHABI</td>
+        <td>URVESH DABHI</td>
     </tr>
     <tr>
          <td>4</td>

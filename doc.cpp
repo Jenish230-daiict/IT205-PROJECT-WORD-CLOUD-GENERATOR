@@ -33,29 +33,29 @@ string readFromFile(const string &filename)
     return content;
 }
 
-string extractPDFContent(string &pdfPath)
+string extractPDFContent(const string &pdfPath)
 {
     // Use system call to extract text using pdftotext (assuming it's installed)
+    string command = "pdftotext " + pdfPath + " -";
+    FILE *pipe = popen(command.c_str(), "r");
 
-    if (pdfPath[pdfPath.length() - 1] == '"')
+    // Check if pipe was opened successfully
+    if (!pipe)
     {
-        pdfPath[pdfPath.length() - 2] = 't';
-        pdfPath[pdfPath.length() - 3] = 'x';
-        pdfPath[pdfPath.length() - 4] = 't';
-    }
-    else
-    {
-        pdfPath[pdfPath.length() - 1] = 't';
-        pdfPath[pdfPath.length() - 2] = 'x';
-        pdfPath[pdfPath.length() - 3] = 't';
+        cerr << "Error opening pipe for " << pdfPath << endl;
+        return "";
     }
 
-    string temp = pdfPath;
+    // Read extracted text from the pipe (standard output)
+    char buffer[1024];
+    string content;
+    while (fgets(buffer, sizeof(buffer), pipe) != NULL)
+    {
+        content += buffer;
+    }
 
-    string command = "pdftotext " + temp + pdfPath;
-
-    temp = readFromFile(pdfPath);
-    return temp;
+    pclose(pipe);
+    return content;
 }
 
 int store_list(string &content, node *&head)

@@ -10,25 +10,30 @@
         <th>SR. NO</th>
         <th>ID</th>
         <th>NAME</th>
+        <th>CONTRIBUTION</th>
     </tr>
     <tr>
         <td>1</td>
         <td>202301172</td>
         <td>MACWAN JENISH DENISH</td>
+        <td>READ TXT FILES AND MAKE GUI</td>
     </tr>
     <tr>
          <td>2</td>
         <td>202301192</td>
         <td>PATEL HARSH NARESHBHAI</td>
+         <td>READ CPP FILES AND DOCUMENTATION</td>
     </tr>
     <tr>
          <td>3</td>
         <td>202301064</td>
         <td>URVESH DABHI</td>
+        <td>MAIN FUNCTION AND DEBUGGING</td>
     </tr>
     <tr>
          <td>4</td>
         <td>202301132</td>
         <td>SWAR PATEL</td>
+        <td>LIST CLASS IMPLIMANTATION AND DEBUGGING</td>
     </tr>
 </table>

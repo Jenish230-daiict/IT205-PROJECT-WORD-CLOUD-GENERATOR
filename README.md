@@ -51,7 +51,6 @@ This project implements a **Word Cloud Generator** using a **singly linked list*
   * The frequency count of that word
   * A pointer to the next word node
 * **Dynamic Frequency Tracking:** If a word already exists in the list, its frequency count is incremented. If it’s new, a new node is appended to the list.
-* **Sorting (optional):** The linked list can be sorted by frequency (descending) to prioritize the most used words in the word cloud.
 * **Visualization:** The final word cloud is either printed in text format with increasing font sizes based on frequency or exported to a graphical format (if integrated with a GUI or external visualization library).
 
 #### **Advantages of Using Linked List:**
@@ -70,3 +69,29 @@ This project implements a **Word Cloud Generator** using a **singly linked list*
 * Educational tools for understanding data structures.
 * Basic text analysis tools.
 * Backend for simple UI-based word cloud apps.
+
+Here’s your passage rewritten with **emphasis, clarity**, and **professional formatting**, ideal for inclusion in a project report or documentation:
+
+---
+
+### **File Structure and Responsibilities**
+
+The implementation of the Word Cloud Generator using a linked list is organized into **three main source files**:
+
+* **`main.cpp`**
+  This file serves as the **user interface** of the project. It handles user interaction, such as prompting the user to choose a text file for input. It acts as the entry point of the application.
+
+* **`doc.cpp`**
+  This file is responsible for the **core document processing functionality**. It:
+
+  * Reads text content from the user-selected file.
+  * Extracts individual words from the text.
+  * Passes the extracted words to the linked list for insertion.
+
+* **`list.cpp`**
+  This is the **data structure core** of the project. It manages the **linked list of words** by:
+
+  * Inserting each word as a node.
+  * **Incrementing the frequency** of a word if it already exists in the list.
+  * Providing the **`topK()`** function that returns the **top K most frequent words**, based on the user’s choice.
+  * Also deletes the whole linked list after completion of the task.

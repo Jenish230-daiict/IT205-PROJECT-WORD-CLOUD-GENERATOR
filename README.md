@@ -69,9 +69,6 @@ This project implements a **Word Cloud Generator** using a **singly linked list*
 * Educational tools for understanding data structures.
 * Basic text analysis tools.
 * Backend for simple UI-based word cloud apps.
-
-Here’s your passage rewritten with **emphasis, clarity**, and **professional formatting**, ideal for inclusion in a project report or documentation:
-
 ---
 
 ### **File Structure and Responsibilities**

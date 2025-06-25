@@ -92,3 +92,4 @@ The implementation of the Word Cloud Generator using a linked list is organized 
   * **Incrementing the frequency** of a word if it already exists in the list.
   * Providing the **`topK()`** function that returns the **top K most frequent words**, based on the user’s choice.
   * Also deletes the whole linked list after completion of the task.
+* You can see example run in **Capstone Project.pdf**.
